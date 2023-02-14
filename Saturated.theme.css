@@ -1,0 +1,10 @@
+/**
+ * @name Saturated Discord
+ * @version 1.0.0
+ * @description Cool custom theme
+ * @author AnonymousPixel
+ */
+
+ :root {
+   --saturation-factor: 8 !important;
+}
