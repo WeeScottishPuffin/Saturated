@@ -15,15 +15,38 @@
    --font-headline: 'Poppins', sans-serif !important;
 }
 
-/*Don't saturate the profile badges
+/*Apply saturation to certain images*/
+.image-20MDYu.marginBottom40-fvAlAV,
+.userSettingsSecurityImage-1ZkUEz,
+.emptyStateImage-1kilCd,
+.icon-2g_pHb.perkNewsletter-3f0-gG.perkIcon-Fs9ArR{
+   filter:saturate(800%) !important;
+}
+
+/*Don't saturate the profile badges or flags
 TODO: Add other stuff to not saturate?*/
-.profileBadge22-3OAigE.profileBadge-2YySEb{
+.profileBadge22-3OAigE.profileBadge-2YySEb,
+.flagImage-jJKVoX{
    filter:saturate(100%) !important;
+}
+
+/*Text explaining why saturation is disabled*/
+.colorStandard-1Xxp1s.size14-k_3Hy4.description-foE_WP.formText-2UzJT0.marginBottom20-315RVT.modeDefault-3Warim{
+   font-size: 0;
+}
+
+.colorStandard-1Xxp1s.size14-k_3Hy4.description-foE_WP.formText-2UzJT0.marginBottom20-315RVT.modeDefault-3Warim#uid_13::before{
+   content:"Bruh saturation is already set to 800% for this Better Discord theme.";
+   font-size: 16px;
+}
+
+.slider-1mmyV6[aria-describedby="uid_13"]{
+   display: none !important;
 }
 
 /*Always underline links*/
 .anchorUnderlineOnHover-2qPutX {
-   text-decoration: underline !important;
+   text-decoration: underline 2px !important;
 }
 
 /*'Show user profile' icon should be the same colour as the rest of the icons up top*/
@@ -72,9 +95,16 @@ div.toolbar-3_r2xA svg path{
 }
 
 /*Cool people uncomment this code below*/
-/*.childWrapper-1j_1ub{
+.childWrapper-1j_1ub{
    background: url(https://cdn.discordapp.com/avatars/1058786883888484472/3c5261b48bb183a825ea3b117b083996.webp?size=48) no-repeat;
 }
 .childWrapper-1j_1ub svg{
    display: none;
-}*/
+}
+.text-27cdrj.marginTop8-24uXGp{
+   font-size: 0 !important;
+}
+.text-27cdrj.marginTop8-24uXGp::before{
+   content:"Who are ye kiddin', ye have got no friends";
+   font-size: 16px;;
+}
