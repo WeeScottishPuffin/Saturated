@@ -56,14 +56,14 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status-2DiCMd{
    width: calc(100% - 10px);
    margin: auto;
    margin-top:5px;
+   margin-bottom:5px;
 }
 
-.container-YkUktl .avatarWrapper-1B9FTW::after(){
-   content: "a";
-   width:100%;
-   height: 1px;
-   margin-left:0;
-   background-color: var(--background-modifier-accent);
+.container-YkUktl .flex-2S1XBF{
+   border-top: 1px solid var(--background-secondary);
+   padding-top: 2px;
+   width: calc(100% + 16px);
+   justify-content: center;
 }
 
 /*Text explaining why saturation is disabled*/
@@ -121,6 +121,7 @@ div.toolbar-3_r2xA svg path{
    font-weight: 900;
 }
 
+/*Stripethrough failed messages*/
 .messageContent-2t3eCI.isFailed-2b8sCy{
    text-decoration: line-through !important;
 }
@@ -210,30 +211,12 @@ div.toolbar-3_r2xA svg path{
 }
 
 /*Custom info text line*/
-.info-3pQQBb:last-child::after {
+.info-3pQQBb:last-child:after {
    content: " \a Discord Saturated V1.0.0";
    font-size: 12px;
    white-space: pre;
    line-height: 16px;
    color: var(--text-muted);
-}
-
-/*Yes, I am very cool*/
-[src^="https://cdn.discordapp.com/avatars/1058786883888484472/3c5261b48bb183a825ea3b117b083996.webp"]{
-   box-shadow: 0px 0px 15px red;
-}
-
-img[src^="https://cdn.discordapp.com/avatars/1058786883888484472/3c5261b48bb183a825ea3b117b083996.webp"] + h3 span.headerText-2z4IhQ span.username-h_Y3Us{
-   color:red !important;
-}
-
-img[src^="https://cdn.discordapp.com/avatars/1058786883888484472/3c5261b48bb183a825ea3b117b083996.webp"] + h3 span.headerText-2z4IhQ span.username-h_Y3Us::before{
-   content:" Theme developer ";
-   color: white;
-   background-color: red;
-   border-radius: 5px;
-   margin-right:5px;
-   font-size: 12px;
 }
 
 /*
