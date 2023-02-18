@@ -23,13 +23,15 @@
    filter:saturate(800%) !important;
 }
 
-/*Don't saturate the profile badges or flags
+/*Don't saturate certain objects
 TODO: Add other stuff to not saturate?*/
 .profileBadge22-3OAigE.profileBadge-2YySEb,
 .flagImage-jJKVoX,
 .bigPerkArt-2FBijV.perksCardArt-3pjOfB,
 .perksCardArt-3pjOfB,
-.profileBadge24-3UMhUO.profileBadge-2YySEb{
+.profileBadge24-3UMhUO.profileBadge-2YySEb,
+.gameIcon-1mDo1J,
+.imageWrapper-oMkQl4.desaturate-_Twf3u{
    filter:saturate(100%) !important;
 }
 
@@ -86,6 +88,19 @@ div.toolbar-3_r2xA svg path{
 /*Dashed dividers for messages just... got them vibes, y'know*/
 .divider-2rZFJK{
    border-top: thin dashed var(--background-modifier-accent) !important;
+}
+
+.divider-2rZFJK.content-3spvdd{
+   font-weight: 900;
+}
+
+.messageContent-2t3eCI.isFailed-2b8sCy{
+   text-decoration: line-through !important;
+}
+
+/*No guild backgrounds in the emoji menu*/
+.categoryItemGuildCategory-3mvXlo.categoryItem-1sHzUv div svg foreignObject .guildIcon-2SUGiq{
+   background-color: transparent !important;
 }
 
 /*Make the card borders in "authorised apps" easier on the eye*/
@@ -179,7 +194,6 @@ img[src^="https://cdn.discordapp.com/avatars/1058786883888484472/3c5261b48bb183a
    font-size: 12px;
 }
 
-/*Cool people uncomment this code below*/
 /*
 .childWrapper-1j_1ub{
    background: url(https://cdn.discordapp.com/avatars/1058786883888484472/3c5261b48bb183a825ea3b117b083996.webp?size=48) no-repeat;
