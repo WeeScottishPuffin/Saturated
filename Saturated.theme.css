@@ -8,7 +8,6 @@
 
 /*Import fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro&display=swap');
 
 :root {
    /*Saturate that shit*/
@@ -17,8 +16,7 @@
    --font-primary: 'Poppins', sans-serif !important;
    --font-display: 'Poppins', sans-serif !important;
    --font-headline: 'Poppins', sans-serif !important;
-
-   --font-code: 'Source Code Pro', monospace !important;
+   --font-code: "Segoe UI",Tahoma,sans-serif !important;
 }
 
 /*Apply saturation to certain images*/
@@ -53,7 +51,7 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status-2DiCMd{
 }
 
 .container-YkUktl .avatarWrapper-1B9FTW{
-   width: calc(100% - 10px);
+   width: 100%;
    margin: auto;
    margin-top:5px;
    margin-bottom:5px;
@@ -64,6 +62,10 @@ foreignObject[mask="url(#svg-mask-status-offline)"] .status-2DiCMd{
    padding-top: 2px;
    width: calc(100% + 16px);
    justify-content: center;
+}
+
+.text-xs-normal-3O7EaX.subtext-2HDqJ7{
+   line-height: 16px;
 }
 
 /*Text explaining why saturation is disabled*/
