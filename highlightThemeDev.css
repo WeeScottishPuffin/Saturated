@@ -1,4 +1,7 @@
-/*Yes, I am very cool*/
+/*
+This (currently unused) script can highlight certain users in discord based on their avatar.
+Maybe I'll use it later on to mark theme developers (me) and... contributers?
+*/
 [src^="https://cdn.discordapp.com/avatars/1058786883888484472/3c5261b48bb183a825ea3b117b083996.webp"]{
    box-shadow: 0px 0px 15px red;
 }
