@@ -147,10 +147,9 @@ div.toolbar-3_r2xA svg path{
    transition: background-color 0.5s, color 0.5s, border 0.5s, opacity 0.2s !important;
 }
 
-/*Stop usernames changing color*/
-.username-u-ebrn{
+/*Make usernames bold*/
+.username-u-ebrn:hover{
    font-weight:900 !important;
-   color: var(--channels-default) !important;
 }
 
 /**/
