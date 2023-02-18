@@ -3,6 +3,7 @@
  * @version 1.0.0
  * @description A theme that increases saturation and makes the UI easier on the eye.
  * @author AnonymousPixel
+ * @source https://github.com/AnonymousPixel/Saturated
  */
 
 /*Import fonts*/
@@ -215,6 +216,24 @@ div.toolbar-3_r2xA svg path{
    white-space: pre;
    line-height: 16px;
    color: var(--text-muted);
+}
+
+/*Yes, I am very cool*/
+[src^="https://cdn.discordapp.com/avatars/1058786883888484472/3c5261b48bb183a825ea3b117b083996.webp"]{
+   box-shadow: 0px 0px 15px red;
+}
+
+img[src^="https://cdn.discordapp.com/avatars/1058786883888484472/3c5261b48bb183a825ea3b117b083996.webp"] + h3 span.headerText-2z4IhQ span.username-h_Y3Us{
+   color:red !important;
+}
+
+img[src^="https://cdn.discordapp.com/avatars/1058786883888484472/3c5261b48bb183a825ea3b117b083996.webp"] + h3 span.headerText-2z4IhQ span.username-h_Y3Us::before{
+   content:" Theme developer ";
+   color: white;
+   background-color: red;
+   border-radius: 5px;
+   margin-right:5px;
+   font-size: 12px;
 }
 
 /*
