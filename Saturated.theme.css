@@ -1,3 +1,11 @@
+/**
+ * @name Saturated Discord
+ * @version 1.0.0
+ * @description A theme that increases saturation and makes the UI easier on the eye.
+ * @author AnonymousPixel
+ */
+
+/*Import fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Source+Code+Pro&display=swap');
 
@@ -226,3 +234,12 @@ img[src^="https://cdn.discordapp.com/avatars/1058786883888484472/3c5261b48bb183a
    margin-right:5px;
    font-size: 12px;
 }
+
+/*
+.childWrapper-1j_1ub{
+   background: url(https://cdn.discordapp.com/avatars/1058786883888484472/3c5261b48bb183a825ea3b117b083996.webp?size=48) no-repeat;
+}
+.childWrapper-1j_1ub svg{
+   display: none;
+}
+*/
