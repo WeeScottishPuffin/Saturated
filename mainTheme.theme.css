@@ -28,7 +28,9 @@ TODO: Add other stuff to not saturate?*/
 .perksCardArt-3pjOfB,
 .profileBadge24-3UMhUO.profileBadge-2YySEb,
 .gameIcon-1mDo1J,
-.imageWrapper-oMkQl4.desaturate-_Twf3u{
+.imageWrapper-oMkQl4.desaturate-_Twf3u,
+.gradient-ICI49D,
+.backgroundImages-2m7jaB{
    filter:saturate(100%) !important;
 }
 
