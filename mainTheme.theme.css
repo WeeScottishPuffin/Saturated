@@ -30,7 +30,8 @@ TODO: Add other stuff to not saturate?*/
 .gameIcon-1mDo1J,
 .imageWrapper-oMkQl4.desaturate-_Twf3u,
 .gradient-ICI49D,
-.backgroundImages-2m7jaB{
+.backgroundImages-2m7jaB,
+.imageWrapper-oMkQl4.bottomIllustration-GuKjww img{
    filter:saturate(100%) !important;
 }
 
