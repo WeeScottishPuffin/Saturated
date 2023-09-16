@@ -31,7 +31,12 @@ TODO: Add other stuff to not saturate?*/
 .imageWrapper-oMkQl4.desaturate-_Twf3u,
 .gradient-ICI49D,
 .backgroundImages-2m7jaB,
-.imageWrapper-oMkQl4.bottomIllustration-GuKjww img{
+.imageWrapper-oMkQl4.bottomIllustration-GuKjww img,
+.icon-35A7dl.iconImage-1PY-Hf,
+.container-1M_GA6.settingsHero-2Me_mE,
+.card-3ie2dy,
+.fakeActivityIcon-KeXVoI.activityCharacterWumpus-31wmZ9,
+.icon-2g_pHb.perkNewsletter-3f0-gG.perkIcon-Fs9ArR{
    filter:saturate(100%) !important;
 }
 
