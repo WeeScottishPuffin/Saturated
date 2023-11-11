@@ -18,8 +18,15 @@
 .icon-2g_pHb.perkNewsletter-3f0-gG.perkIcon-Fs9ArR,
 .ownerIcon-255uKo,
 .image__98a59,
-.chat__52833{
+.header__60bef,
+.container__10dc7,
+.image__4cfd2{
    filter:saturate(800%) !important;
+}
+
+.content__23cab.scrollerInner__55d07,
+.header_d02e62{
+   filter:saturate(.125) !important;
 }
 
 /*Don't saturate certain objects
