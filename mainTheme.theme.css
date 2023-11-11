@@ -16,7 +16,9 @@
 .userSettingsSecurityImage-1ZkUEz,
 .emptyStateImage-1kilCd,
 .icon-2g_pHb.perkNewsletter-3f0-gG.perkIcon-Fs9ArR,
-.ownerIcon-255uKo{
+.ownerIcon-255uKo,
+.image__98a59,
+.chat__52833{
    filter:saturate(800%) !important;
 }
 
@@ -36,7 +38,12 @@ TODO: Add other stuff to not saturate?*/
 .container-1M_GA6.settingsHero-2Me_mE,
 .card-3ie2dy,
 .fakeActivityIcon-KeXVoI.activityCharacterWumpus-31wmZ9,
-.icon-2g_pHb.perkNewsletter-3f0-gG.perkIcon-Fs9ArR{
+.icon-2g_pHb.perkNewsletter-3f0-gG.perkIcon-Fs9ArR,
+.card__48184,
+.card_e97590,
+.perksCardArt__35e0c,
+.bottomIllustration__5d164,
+.headerImage__0db01{
    filter:saturate(100%) !important;
 }
 
