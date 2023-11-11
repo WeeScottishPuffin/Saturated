@@ -43,7 +43,8 @@ TODO: Add other stuff to not saturate?*/
 .card_e97590,
 .perksCardArt__35e0c,
 .bottomIllustration__5d164,
-.headerImage__0db01{
+.headerImage__0db01,
+.pageBody_db54f5{
    filter:saturate(100%) !important;
 }
 
